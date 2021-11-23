@@ -7,7 +7,8 @@ print(array)
 numb_houses = array[0]
 first_house = array[1]
 middle = (numb_houses / 2)
-while middle < 0:
+print(middle)
+while middle > 0:
     first_house = first_house + 1
     middle = middle - 1
 
