@@ -5,11 +5,14 @@ for line in file:
         array.append(int(word))
 print(array)
 numb_houses = array[0]
-first_house = array[1]
-middle = (numb_houses / 2)
-print(middle)
-while middle > 0:
-    first_house = first_house + 1
-    middle = middle - 1
+houses = array[1:]
+print(houses)
+print(houses[numb_houses - 1] / 2)
 
-print(first_house)
+# first_house = array[1]
+# middle = (numb_houses / 2)
+# print(middle)
+# while middle > 0:
+#     first_house = first_house + 1
+#     middle = middle - 1
+# print(first_house)
